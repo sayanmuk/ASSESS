@@ -1,0 +1,55 @@
+<!--#include virtual="head.html" -->
+
+<body>
+<div id='mainwrapper'> <!-- START mainwrapper -->
+
+<!-- START Breadcrumbs -->
+
+<div id="breadcrumbs">
+<a href="index.html">Home</a><b>&nbsp;&nbsp;&circ;&nbsp;&nbsp;</b>
+<a href="doc/doc_index.html">Documentation</a><b>&nbsp;&nbsp;&circ;&nbsp;&nbsp;</b>
+<a href="software/software_index.html">Software</a>
+</div>
+
+<!-- END Breadcrumbs -->
+
+<!-- BEGIN Content -->
+<div id="content">
+<h1 class="science"> Analysis of Sample Set Enrichment Scores: Overview</h1>
+<p>Analysis of Sample Set Enrichment Scores (ASSESS) is a computational method that determines whether
+an <i>a priori</i> defined set of genes shows statistically significant, concordant differences
+between two biological states (e.g. phenotypes).
+</p>
+
+<p><a href="doc/doc_index.html"><font class="large">Documentation</font></a>: Information on the ASSESS method including publications.</p>
+<p><a href="software/software_index.html"><font class="large">Software</font></a>: Implementations of the method plus additional resources to analyze, annotate and interpret enrichment results.</p>
+
+<!-- END Content -->
+
+</div> <!-- end content wrapper -->
+
+
+<!-- START Footer -->
+
+<div id="footer">
+  
+  <div id="toolLinks">
+    <a href="index.html">Home</a> |
+    <a href="contact.html">Contact Us</a>
+   </div>
+
+  <div id="copyright">Last updated:
+       April 20, 2006<br>
+	&copy; 2006 IGSP
+  </div>
+
+</div>
+
+<!-- END Footer -->
+
+</div> <!-- END mainwrapper -->
+
+
+
+</body>
+</html>

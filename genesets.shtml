@@ -1,0 +1,76 @@
+<!--#include virtual="head.html" -->
+
+<!-- BEGIN Content -->
+<div id="content">
+<table border="0">
+<tr valign="top"><td><font size="small">ASSESS ~ Analysis of Sample Set Enrichment Scores</font></td></tr>
+<tr><td><h1 class="science">Genesets</h1></td></tr>
+</table>
+
+<h5>
+	Annotations of individual gene sets are now available in <a href="genesets/Jan2006/cards/cards_index.shtml">GeneSetCards</a>
+</h5>
+<p>Download/browse gene sets (January 2006):</p>
+<div align="center">
+
+    <center>
+
+        <table class="fancy">
+            <tr>
+                <th width="30%"><p align="center">CATEGORY</p></th>
+                <th width="30%"><p align="center">FILE</p></th>
+
+                <th width="30%"><p align="center">OTHER ARRAY FORMATS</p></th>
+            </tr>
+            <tr>
+                <td width="30%">Cytogenetic gene sets</td>
+                <td width="30%" align="center">
+                    <a href="genesets/Jan2006/C1/C1.symbols.gmt">C1.symbols.gmt</a><br>
+                </td>
+
+                <td width="30%" align="center">
+                    <a href="genesets/Jan2006/C1">browse C1</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">Pathway gene sets</td>
+                <td width="30%" align="center">
+                    <a href="genesets/Jan2006/C2/C2.symbols.gmt">C2.symbols.gmt</a><br>
+                </td>
+                <td width="30%" align="center">
+                    <a href="genesets/Jan2006/C2">browse C2</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">Motif gene sets</td>
+                <td width="30%" align="center">
+                    <a href="genesets/Jan2006/C3/C3.symbols.gmt">C3.symbols.gmt</a><br>
+                </td>
+                <td width="30%" align="center">
+                    <a href="genesets/Jan2006/C3">browse C3</a><br>
+                </td>
+            </tr>
+            <tr>
+
+                <td width="30%">All gene sets <br>(several formats)</td>
+                <td width="30%" align="center">
+                    <a href="msigdb/msigdb_files/all_msigdb_gene_sets.zip">all_msigdb_gene_sets.zip <b>65 Mb</b></a><br>
+                </td>
+                <td width="30%" align="center">
+                    <a href="msigdb/msigdb_files/all_msigdb_gene_sets_annotations.zip">All annotations <b>53 Mb</b></a><br>
+
+                </td>
+            </tr>
+        </table>
+
+        <h2>Instructions:<i> Right click</i> a link below and choose <i>'save link as'</i>.<br>
+            Make sure to save it as a text file with the file extension &quot;.gmt&quot;</h2>
+
+        
+    </center>
+</div>
+
+</div> <!-- end content wrapper -->
+
+
+<!--#include virtual="foot.html" -->

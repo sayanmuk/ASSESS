@@ -1,0 +1,220 @@
+/* FONT STYLES CSS Document */
+
+/* COMMON STYLES */
+
+a 			{ text-decoration: none; color: #039; }
+a:link 		{ text-decoration: none; color: #039; }
+a:visited 	{ text-decoration: none; color: #039; }
+a:hover 	{ text-decoration: underline; }
+
+
+/*FONT SIZES*/
+
+/* LARGE TYPE SIZE for main page heading */
+h1 {
+
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* more specific to override imported rule */
+    font-size:    large;			/* false value for WinIE4/5 */
+    voice-family: "\"}\"";			/* trick WinIE4/5 into thinking rule is over */
+    voice-family: inherit;			/* recover from trick */
+    font-size:    x-large;			/* intended value for better browsers */
+	}
+	html>h1 {
+    font-size:    x-large; 			/* be nice to Opera */
+}
+
+h1 {
+	margin-top: 0;
+	padding-left: 0px;
+	line-height: 1em;
+	color: #777;
+}
+
+h1.pubs {
+
+	/* more specific to override imported rule */
+    font-size:    medium;			/* false value for WinIE4/5 */
+    voice-family: "\"}\"";			/* trick WinIE4/5 into thinking rule is over */
+    voice-family: inherit;			/* recover from trick */
+    font-size:    large;			/* intended value for better browsers */
+	}
+	html>h1.pubs {
+    font-size:    large; 			/* be nice to Opera */
+}
+
+h1.news {
+
+	/* more specific to override imported rule */
+	font-size:    medium;                       /* false value for WinIE4/5 */
+	voice-family: "\"}\"";                      /* trick WinIE4/5 into thinking rule is over */
+	voice-family: inherit;                      /* recover from trick */
+	font-size:    large;                        /* intended value for better browsers */
+	}
+	html>h1.news {
+	font-size:    large;                        /* be nice to Opera */
+        }		
+
+/* SMALL TYPE SIZE for subheads, body text, nav items, etc */
+/* use keywords to set some default sizes (approx 13px), then base other sizes off this as a percentage */
+body, h2, h3, h4, p, li, td, th, div, blockquote, #leftnav, #footer, select, input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* more specific to override imported rule */
+    font-size:    x-small;			/* false value for WinIE4/5 */
+    voice-family: "\"}\"";			/* trick WinIE4/5 into thinking rule is over */
+    voice-family: inherit;			/* recover from trick */
+    font-size:    medium;			/* intended value for better browsers */
+	}
+	html>body, html>h3 {
+    font-size:    small; 			/* be nice to Opera */
+}
+
+
+h2, h3, h4, p, ul, ol, blockquote {
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+
+
+p, #content li, blockquote, h2, h3, h4, h5, #subnav {
+	font-size: 85%;
+	line-height: 1.5em;
+	padding-left: 5px;
+	margin-right: 20px
+}
+
+#content li {
+	line-height: 1.4em;
+	padding-bottom: 0.3em
+}
+
+h2.nospace {
+	clear: both;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-weight: bold;
+	color: #333;
+	background-color: #E6EDF5;
+	padding: 0 5px;
+
+}
+
+h3, strong, b {
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 0;
+}
+
+hr { 	
+	color: #fff;
+	background-color: #fff;
+	padding-left: 5px; 
+	padding-right: 5px; 
+	margin-right: 10px;
+	border: none;
+	border-top: 1px dashed #aaa;
+	}
+
+hr.green { 	
+	color: #fff;
+	background-color: #fff;
+	padding-left: 5px; 
+	padding-right: 5px; 
+	margin-right: 10px;
+	border: none;
+	border-top: 1px dashed #648233;
+	}
+
+
+
+
+sup	{
+	font-size:75%;
+}
+
+a.sm, a.sm:link, a.sm:visited {
+color: #666;
+font-size: 85%;
+}
+
+.subhead div.feature  {
+	font-weight:bold
+}
+
+
+/* SMALLEST FONT SIZE for breadcrumbs, footer, captions */
+
+#breadcrumbs, #footer, #toolLinks, #copyright, .photo p, table.imagetableL td p, table.imagetableR td p, table.fancy td, table.fancy th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* more specific to override imported rule */
+    font-size:    xx-small;			/* false value for WinIE4/5 */
+    voice-family: "\"}\"";			/* trick WinIE4/5 into thinking rule is over */
+    voice-family: inherit;			/* recover from trick */
+    font-size:    x-small;			/* intended value for better browsers */
+	}
+	html>body #breadcrumbs, html>body #footer, html>body #toolLinks, html>body #copyright, html>body .photo p, html>body .caption, html>body table.fancy td, html>body table.fancy th {
+    font-size:    x-small; 			/* be nice to Opera */
+}
+
+.schedule, table.fancy td.schedule {
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 0;
+	background-color: #ffffff;
+	
+}
+
+
+.red {
+	color: #aa0a0a;
+}
+
+
+
+.photo {
+margin-left: 5px;
+clear: both;
+}
+
+.photo p {
+	background-color: #E6EDF5;
+	margin-top: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 1.2em;
+}
+
+.newsdate {
+	color: #666;
+}
+
+a.black, a.black:link, a.black:visited {
+	color: #000;
+}
+
+span.ql {
+	color: #fff;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+
+
+/* for the image box in the news section */
+/*.imagetableL .caption, .imagetableR .caption {
+	padding:10px;
+	font-size: 85%;
+}*/
+.large {
+	font-size: 110%;
+}
+.unix {
+	font-family: "Courier New", Courier, mono;
+	margin-left: 10px;
+}
+.small {
+	font-size: smaller;
+}

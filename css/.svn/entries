@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="17"
+   url="svn+ssh://ifrit2.duhs.duke.edu/subversion/assess/web/css"
+   last-author="jhg9"
+   committed-date="2006-04-24T21:19:08.977000Z"
+   name=""
+   kind="dir"
+   committed-rev="17"/>
+<entry
+   checksum="f1b36459ec794a92802402017c6bc1a6"
+   last-author="jhg9"
+   text-time="2006-04-24T18:21:54.000000Z"
+   committed-date="2006-04-24T21:19:08.977000Z"
+   name="fonts.css"
+   kind="file"
+   committed-rev="17"/>
+<entry
+   checksum="bfd2340596be934917e9316cf8812efa"
+   last-author="jhg9"
+   text-time="2005-09-29T20:52:49.000000Z"
+   committed-date="2006-04-24T21:19:08.977000Z"
+   kind="file"
+   name="leftnav.css"
+   committed-rev="17"/>
+<entry
+   checksum="51db9dd3065653293e00629d3895fe7b"
+   last-author="jhg9"
+   text-time="2006-04-24T18:21:06.000000Z"
+   committed-date="2006-04-24T21:19:08.977000Z"
+   name="structure.css"
+   kind="file"
+   committed-rev="17"/>
+</wc-entries>

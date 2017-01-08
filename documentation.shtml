@@ -1,0 +1,21 @@
+<!--#include virtual="head.html" -->
+
+<!-- BEGIN Content -->
+<div id="content">
+<table border="0">
+<tr valign="top"><td><font size="small">Analysis of Sample Set Enrichment Scores</font></td></tr>
+<tr><td><h1 class="science">Documentation</h1></td></tr>
+</table>
+<p>
+<A href="http://www.stat.duke.edu/~sayan/webPub/assess.pdf">"Analysis of Sample Set Enrichment Scores: assaying the enrichment of sets of genes for individual samples in genome-wide expression profiles"</A>, Bioinformatics, 2006.
+</p>
+<p><a href="example.shtml"><font class="large">Examples</font></a>: A leukemia example and a gender 
+example to illustrate the use of assess to analyze expression data.
+</p>
+
+<!-- END Content -->
+
+</div> <!-- end content wrapper -->
+
+
+<!--#include virtual="foot.html" -->

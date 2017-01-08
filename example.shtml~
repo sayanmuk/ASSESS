@@ -1,0 +1,56 @@
+<!--#include virtual="head.html" -->
+
+<!-- BEGIN Content -->
+<div id="content">
+<table border="0">
+<tr valign="top"><td><font size="small">ASSESS ~ Analysis of Sample Set Enrichment Scores</font></td></tr>
+<tr><td><h1 class="science">Examples</h1></td></tr>
+</table>
+
+<h4>Leukemia Example</h4>
+<p>
+<a href="example/leukemia.gct">Expression data</a> |
+<a href="example/leukemia.cls">Classes</a> | 
+<a href="example/s2.hugenefl.gmt">Gene sets</a> | 
+<a href="example/enrichmentScores.gct">Scores</a> | 
+<a href="example/heatmap.jpg">Heat map</a>
+</p>
+<p>
+<a href="example/leukemia_k3plot.jpg"><img align="right" width="350" src="example/leukemia_k3plot.jpg"/></a>
+A very natural consequence of obtaining enrichment scores for each sample in the data set is that classification 
+and clustering can now be preformed in the space of gene sets rather than individual genes. In this example, 
+ASSESS was applied to an expression data set with acute myelogenous leukemia (AML) and acute lymphoblastic 
+leukemia (ALL) samples on a database of 377 <a href="example/s2.hugenefl.gmt">gene sets</a>. 
+Enrichment scores can be found <a href="example/enrichmentScores.gct">here</a> and shown graphically
+<a href="example/heatmap.jpg">here</a>. 
+</p>
+<p>
+A matrix factorization method (NMF) was applied to this space of enrichment scores. 
+With k=2, clustering obtained from the enrichment space accurately 
+differentiated ALL from AML samples.  Clustering with k=3 (see image on right) accurately selected 
+three subsets of the samples: ALL-T, ALL-B, and AML all had greater confidence 
+than that from the raw expression data.
+</p>
+<hr/>
+<h4>Gender Example</h4>
+<p>
+The enrichment scores from affymetrix gene expression data with probes from 22,283 human genes with gender 
+labels was computed in 8 gene sets.  Gene sets were defined by cytogenetic bands and pathway or functional 
+properties.  As expected for males chromosome Y as well as its two bands (Yp11 and Yq11) and the gene set 
+corresponding to genes enriched in male reproductive tissue (testis) were over expressed.  
+For females two gene sets of genes that escape X-inactivation were over expressed in addition 
+to a gene set corresponding to genes enriched in female reproductive tissue (uterus).  
+The Myc gene set was used as a control in that it is not expected to be enriched with respect 
+to the male/female distinction and indeed this is the case. The <a href="example/gender_enrichmentScores.gct">
+enrichment scores</a> and heatmap (see picture below) produced by ASSESS are provided here.
+<br/>
+<br/>
+<a href="example/gender_heatmap.jpg"><img width="400" align="center" src="example/gender_heatmap.jpg"/></a>
+</p>
+
+<!-- END Content -->
+
+</div> <!-- end content wrapper -->
+
+
+<!--#include virtual="foot.html" -->

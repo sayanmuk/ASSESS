@@ -1,0 +1,23 @@
+<!--#include virtual="head.html" -->
+
+<!-- BEGIN Content -->
+<div id="content">
+<table border="0">
+<tr valign="top"><td><font size="small">ASSESS ~ Analysis of Sample Set Enrichment Scores</font></td></tr>
+<tr><td><h1 class="science">Overview</h1></td></tr>
+</table>
+<p>Analysis of Sample Set Enrichment Scores (ASSESS) is a computational method that determines whether
+an <i>a priori</i> defined set of genes shows statistically significant, concordant differences
+between two biological states (e.g. phenotypes).
+</p>
+
+<p><a href="documentation.shtml"><font class="large">Documentation</font></a>: Information on the ASSESS method including publications.</p>
+<p><a href="download.shtml"><font class="large">Software</font></a>: Implementations of the method plus additional resources to analyze, annotate and interpret enrichment results.</p>
+<p><a href="genesets.shtml"><font class="large">Genesets</font></a>: View and download genesets.</p>
+
+<!-- END Content -->
+
+</div> <!-- end content wrapper -->
+
+
+<!--#include virtual="foot.html" -->

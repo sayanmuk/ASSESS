@@ -1,0 +1,7 @@
+A very natural consequence of obtaining enrichment scores for each sample in the data set is that classification and clustering can now be preformed in the space of gene sets rather than individual genes. 
+In this example, ASSESS was applied to an expression data set with acute myelogenous leukemia (AML) and acute lymphoblastic leukemia (ALL) samples on a database of 377 gene sets (s2.hugenefl.gmt). 
+Enrichment scores are given in the file enrichmentScores.gct and shown graphically in heatmap.jpg (both direct outputs from ASSESS). 
+A matrix factorization method (NMF) was applied to this space of enrichment scores. 
+From this data set results with k=3 are shown in leukemia_k3plot.jgp. 
+Clustering obtained from the enrichment space accurately selected three subsets of the samples: 
+ALL-T, ALL-B, and AML and had greater confidence than that from the raw expression data.   
